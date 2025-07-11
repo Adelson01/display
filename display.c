@@ -1,17 +1,3 @@
-/*
- * 
- * Comunicação serial com I2C
- *  
- * Uso da interface I2C para comunicação com o Display OLED
- * 
- * Estudo da biblioteca ssd1306 com PicoW na Placa BitDogLab.
- *  
- * Este programa escreve uma mensagem no display OLED.
- * 
- * Código baseado em material do github produzido por: Wilton Lacerda Silva
-*/
-
-
 #include <stdlib.h>
 #include <stdio.h>
 #include "pico/stdlib.h"
@@ -26,19 +12,7 @@
 #define I2C_SDA 14
 #define I2C_SCL 15
 #define endereco 0x3C
-
-
 #define VRX_PIN 27      // GPIO para eixo X
-#define SERVO_GPIO 20
-#define SERVO_MIN_US 0   // Posição de 0 graus
-#define SERVO_MAX_US 3.3  // Posição de 180 graus
-
-
-
-
-
-
-
 
 
 int main()
