@@ -4,10 +4,7 @@ Este projeto faz a leitura de um joystick analógico utilizando o ADC do **Raspb
 
 🔗 **Repositório oficial:** [github.com/Adelson01/display](https://github.com/Adelson01/display.git).
 
-
-
-
-    **LINK DO VIDEO** https://drive.google.com/file/d/1S5nDFP-BUoEj906ivz6LY4CiTGE0el_X/view?usp=drive_link
+🔗    **LINK DO VIDEO** https://drive.google.com/file/d/1S5nDFP-BUoEj906ivz6LY4CiTGE0el_X/view?usp=drive_link
 
 ---
 
