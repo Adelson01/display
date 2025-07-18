@@ -33,17 +33,15 @@ O sistema lê continuamente a tensão do eixo X de um joystick conectado ao GPIO
 
 ## 📂 Estrutura do Projeto
 
+```
 display/
-├── main.c # Código principal
+├── main.c               # Código principal
 ├── inc/
-│ ├── ssd1306.h # Biblioteca do display
-│ └── font.h # Fonte para o display
-├── CMakeLists.txt # Arquivo de build para o Pico SDK
-└── README.md # Este documento
-
-yaml
-Copiar
-Editar
+│   ├── ssd1306.h        # Biblioteca do display
+│   └── font.h           # Fonte para o display
+├── CMakeLists.txt       # Arquivo de build para o Pico SDK
+└── README.md            # Este documento
+```
 
 ---
 
@@ -63,19 +61,25 @@ Editar
    ```bash
    git clone https://github.com/Adelson01/display.git
    cd display
-Crie a pasta de build e compile:
+   ```
 
-bash
-Copiar
-Editar
-mkdir build && cd build
-cmake ..
-make
-Copie o arquivo .uf2 gerado para a Raspberry Pi Pico (modo bootloader via USB).
+2. Crie a pasta de build e compile:
+   ```bash
+   mkdir build && cd build
+   cmake ..
+   make
+   ```
 
-👩‍💻 Contribuições
-Nome	Responsabilidade
-Danielli	Desenvolvimento da lógica de exibição no display OLED
-Guilherme	Implementação da leitura do ADC e conversão da tensão
-Adelson	Revisão, organização e correção geral do código
+3. Copie o arquivo `.uf2` gerado para a Raspberry Pi Pico (modo bootloader via USB).
 
+---
+
+## 👩‍💻 Contribuições
+
+| Nome        | Responsabilidade                                           |
+|-------------|------------------------------------------------------------|
+| **Danielli**  | Desenvolvimento da lógica de exibição no display OLED       |
+| **Guilherme** | Implementação da leitura do ADC e conversão da tensão       |
+| **Adelson**   | Revisão, organização e correção geral do código             |
+
+---
