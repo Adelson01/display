@@ -2,7 +2,7 @@
 
 Este projeto faz a leitura de um joystick analógico utilizando o ADC do **Raspberry Pi Pico** e exibe o valor da tensão lida em um **display OLED (SSD1306)** via comunicação I2C.
 
-🔗 **Repositório oficial:** [github.com/Adelson01/display](https://github.com/Adelson01/display.git)
+🔗 **Repositório oficial:** [github.com/Adelson01/display](https://github.com/Adelson01/display.git).
     **LINK DO VIDEO** https://drive.google.com/file/d/1S5nDFP-BUoEj906ivz6LY4CiTGE0el_X/view?usp=drive_link
 
 ---
